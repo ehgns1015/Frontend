@@ -19,13 +19,13 @@
 			"buffers":
 			[
 				{
-					"contents": "<!DOCTYPE html>\n<html>\n    <head>\n        <meta charset=\"utf-8\" />\n        <title>Page</title>\n    </head>\n    <body>\n        &amp;<br/>\n        &copy;\n        <!--\n            ; is character for a period of code.\n            <tag name element=\"value\"/>\n            ./ : current location\n        -->\n        <img src=\"location\" alt=\"description\" />\n\n    </body>\n</html>\n ",
-					"file": "/C/Dev/git/Frontend/Dohun Yeo/html/index.html",
-					"file_size": 208,
-					"file_write_time": 132405841775096454,
+					"contents": "<!DOCTYPE html>\n<html>\n    <head>\n        <meta charset=\"utf-8\" />\n        <title>Document</title>\n    </head>\n    <body>\n        <h1>Headline1</h1>\n        <h2>Headline2</h2>\n        <h3>Headline3</h3>\n        <h4>Headline4</h4>\n        <h5>Headline5</h5>\n        <h6>Headline6</h6>\n        <!--\n			target : _self(default), _blank\n    	-->\n        <img src=\"./images/image.jpg\" alt=\"img\" width=\"600\" height=\"1600\" title=\"NY\" />\n        <a href=\"http://naver.com\">Naver</a>\n        <a href=\"http://google.com\" target=\"_blank\">Google</a>\n        <iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/lRDunUDd_7Q\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n        <p>This is area 1 of paragraph.</p>\n        <hr>\n        <p>This is area 2 of paragraph.</p>\n\n       	<address>\n               2686 Mill Ct., Doravile, GA, 30360\n               <a href=\"tel:4047365913\">+14047365913</a>\n               <a href=\"sms:4047365913\">text message</a>\n               <a href=\"mailTo:test@test.com\">email</a>\n        </address>\n\n        <ul tyep=\"square\">\n            <li>Orange</li>\n            <li>Water melon</li>\n            <li>Apple</li>\n        </ul>\n        <ol>\n            <li>Gold</li>\n            <li>Silver</li>\n            <li>Bronze</li>\n        </ol>\n\n        <dl>\n            <dt>Definition</dt>\n            <dd>Description</dd>\n            <dt>Hongildong</dt>\n            <dd>Hello</dd>\n            <dt>SeongChunhyang</dt>\n            <dd>Hi</dd>\n        </dl>\n\n        \n    </body>\n</html>",
+					"file": "/C/Dev/git/Frontend/Dohun Yeo/html/07312020/02/01.html",
+					"file_size": 1629,
+					"file_write_time": 132406722727576197,
 					"settings":
 					{
-						"buffer_size": 371,
+						"buffer_size": 1588,
 						"line_ending": "Windows"
 					}
 				}
@@ -111,18 +111,18 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/C/Dev/git/Frontend/Dohun Yeo/html/index.html",
+							"file": "/C/Dev/git/Frontend/Dohun Yeo/html/07312020/02/01.html",
 							"settings":
 							{
-								"buffer_size": 371,
+								"buffer_size": 1588,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										371,
-										371
+										1568,
+										1568
 									]
 								],
 								"settings":
@@ -130,7 +130,7 @@
 									"syntax": "Packages/HTML/HTML.tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 702.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
@@ -169,7 +169,7 @@
 				]
 			},
 			"menu_visible": true,
-			"position": "0,0,1,-1,-1,-1,-1,1001,711,163,1790",
+			"position": "0,0,1,-32000,-32000,-1,-1,1001,711,163,1790",
 			"replace":
 			{
 				"height": 0.0
