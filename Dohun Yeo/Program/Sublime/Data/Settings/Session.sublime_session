@@ -1,6 +1,7 @@
 {
 	"folder_history":
 	[
+		"/C/Dev/git/Frontend/Dohun Yeo/html"
 	],
 	"last_window_id": 1,
 	"settings":
@@ -17,6 +18,14 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/C/Dev/git/Frontend/Dohun Yeo/html/07312020/02/01.html",
+					"settings":
+					{
+						"buffer_size": 1862,
+						"line_ending": "Windows"
+					}
+				}
 			],
 			"build_system": "",
 			"command_palette":
@@ -46,6 +55,7 @@
 			},
 			"file_history":
 			[
+				"/C/Dev/git/Frontend/Dohun Yeo/html/index.html",
 				"/C/Users/VIP/Desktop/00/Sublime/Data/Packages/Default/Preferences.sublime-settings",
 				"/C/Users/VIP/Desktop/1.html",
 				"/C/Users/VIP/Desktop/sublime/Data/Packages/Default/Preferences.sublime-settings",
@@ -84,11 +94,44 @@
 				"whole_word": false,
 				"wrap": true
 			},
+			"folders":
+			[
+				{
+					"path": "/C/Dev/git/Frontend/Dohun Yeo/html"
+				}
+			],
 			"groups":
 			[
 				{
+					"selected": 0,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/C/Dev/git/Frontend/Dohun Yeo/html/07312020/02/01.html",
+							"settings":
+							{
+								"buffer_size": 1862,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1568,
+										1568
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/HTML/HTML.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 1452.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -123,7 +166,7 @@
 				]
 			},
 			"menu_visible": true,
-			"position": "0,0,1,-1,-1,-1,-1,838,379,0,1458",
+			"position": "0,0,1,-32000,-32000,-1,-1,1001,711,163,1790",
 			"replace":
 			{
 				"height": 0.0
