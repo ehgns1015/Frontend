@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Document</title>
+	</head>
+	<body>
+		<table border="1">
+			<tr>
+				<td>1</td>
+				<td>2</td>
+				<td>3</td>
+			</tr>
+			<tr>
+				<td>a</td>
+				<td>b</td>
+				<td>c</td>
+			</tr>
+			<tr>
+				<td>&copy;</td>
+				<td>&hearts;</td>
+				<td>&amp;</td>
+			</tr>
+		</table>
+		<hr/>
+		<!--
+		combine
+		horizontal - colspan
+		vertical - rowspan
+		-->
+		<table border="1">
+			<tr>
+				<th>알파벳</th>
+				<th>숫자</th>
+			</tr>
+			<tr>
+				<td colspan="2" rowspan="1">A, 1</td>
+			</tr>
+			<tr>
+				<td>B</td>
+				<td rowspan="3">2, 3</td>
+			</tr>
+			<tr>
+				<td>C</td>
+			</tr>
+		</table>
+		<hr/>
+		<table border="1">
+			<tr>
+				<th>Name</th>
+				<th>Gender</th>
+				<th>Age</th>
+			</tr>
+			<tr>
+				<td>홍길동</td>
+				<td>남성</td>
+				<td>25</td>
+			</tr>
+			<tr>
+				<td>임꺽정</td>
+				<td>남성</td>
+				<td>30</td>
+			</tr>
+			<tr>
+				<td>성춘향</td>
+				<td>여성</td>
+				<td>18</td>
+			</tr>
+		</table>
+		<!--
+			table's child tag
+			caption, tr, tbody, thead, tfoot
+
+			thead, tfoot is coded in the order, thead and tfoot are used only once in the code by the rule (Web Standard).
+		-->
+		<hr />
+		<table border="1">
+			<caption>월별 가격표</caption>
+			<thead>
+				<tr>
+					<th>월별</th>
+					<th>가격</th>
+				</tr>
+			</thead>
+			<tfoot>
+				<tr>
+					<td>총액</td>
+					<td>2,500원</td>
+				</tr>
+			</tfoot>
+			<tbody>
+				<tr>
+					<td>01월</td>
+					<td>1,000원</td>
+				</tr>
+				<tr>
+					<td>02월</td>
+					<td>1,500원</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>
