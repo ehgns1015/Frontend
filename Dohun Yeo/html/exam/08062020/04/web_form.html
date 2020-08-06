@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8" />
+        <link href="http://lectured.kr/lib/example/h1/04/style.css" rel="stylesheet" type="text/css" />
+        <title>Web Form</title>
+    </head>
+	<body>
+		<!--
+			method - get, post
+			name property - value to send
+			action - the address to process data
+		-->
+		<form mehtod="post" action="https://lectured.kr/resource/example/data.php">
+			<input type="text" name="id" />
+			<input type="password" name="pw" />
+			<input type="submit" value="send" />
+		</form>
+		<!--
+			First letter is written with a small case, number, character, _, $.
+			Korean, space (excepted)
+			id property should not be used with the same name more than once in the doc.
+			radio property only process one data value.
+		-->
+		<form>
+			<input type="radio" id="g_male" name="gender" value="m" />
+			<label for="g_male">Male</label>
+			<input type="radio" id="g_female" name="gender" value="f" />
+			<label for="g_female">Female</label>
+		</form>
+		<form>
+			<input type="checkbox" id="h_movie" name="hobby[]" value="movie" />
+			<label for="h_movie">Movie</label>
+			<br />
+			<input type="checkbox" id="h_music" name="hobby[]" value="music" />
+			<label for="h_music">Music</label>
+			<br />
+			<input type="checkbox" id="h_book" name="hobby[]" value="book" />
+			<label for="h_book">Book</label>
+			<br />
+			<input type="checkbox" id="h_none" name="hobby[]" value="none" />
+			<label for="h_none">None</label>
+		</form>
+		<!--
+			textarea
+			cols: horizontal(default 20)
+			rows: vertical(default 2)
+		-->
+		<form>
+			<textarea cols="32" rows="5"></textarea>
+		</form>
+		<form>
+			<select name="phone1">
+				<option value="0">select</option>
+				<option value="010">010</option>
+				<option value="011">011</option>
+			</select>&nbsp;-&nbsp;
+			<input type="text" name="phone2" maxlength="4" />&nbsp;-&nbsp;
+			<input type="text" name="phone3" maxlength="4" />
+		</form>
+		<!--
+			language - lang property in html tag should be filled!
+			To keep Web accessibility
+			Best - label
+			Second best - title
+		-->
+	</body>
+</html>
