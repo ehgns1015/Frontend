@@ -1,0 +1,104 @@
+
+<!--
+table 사용
+Form
+처리할 페이지 주소 : join.php
+전송 방식 : post
+
+Guide
+텍스트   라디오버튼       셀렉트박스       셀렉트박스+텍스트2    체크박스
+회원이름, 회원성별(남,여), 회원나이(31~33), 회원연락처,         회원스킬
+
+thead, tfoot, tbody는 생략하겠습니다.
+-->
+<!DOCTYPE html>
+<html lang="kr">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="https://lectured.kr/resource/common/files/form.css" />
+		<title>회원가입폼</title>
+	</head>
+	<body>
+		<form action="join.php" method="post">
+			<table>
+				<caption>회원가입폼</caption>
+				<tr>
+					<td>
+						<label for="mb_name">회원이름</label>
+					</td>
+					<td>
+						<input type="text" id="mb_name" name="mb_name" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>회원성별</label>
+					</td>
+					<td>
+						<input type="radio" id="gender_male" name="mb_gender" />
+						<label for="gender_male">남성</label>
+						<input type="radio" id="gender_female" name="mb_gender" checked />
+						<label for="gender_female">여성</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="mb_age">회원나이</label>
+					</td>
+					<td>
+						<select id="mb_age" name="mb_age">
+							<option value="31">31살</option>
+							<option value="32">32살</option>
+							<option value="33">33살</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="mb_phone1">회원연락처</label>
+					</td>
+					<td>
+						<select id="mb_phone1" name="mb_phone1">
+							<option value="010">010</option>
+							<option value="011">011</option>
+						</select>&nbsp;-&nbsp;
+						<input type="text" name="mb_phone2" maxlength="4" />&nbsp;-&nbsp;
+						<input type="text" name="mb_phone3" maxlength="4" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>회원스킬</label>
+					</td>
+					<td>
+						<input type="checkbox" id="skill_html" name="mb_skill[]" />
+						<label for="skill_html">HTML</label><br />
+						<input type="checkbox" id="skill_css" name="mb_skill[]" />
+						<label for="skill_css">CSS</label><br />
+						<input type="checkbox" id="skill_js" name="mb_skill[]" />
+						<label for="skill_js">Javascript</label><br />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>첨부파일</label>
+					</td>
+					<td>
+						<input type="file" id="mb_file" name="mb_file" title="첨부파일" />
+					</td>
+				</tr>
+				<tr>
+					<td>모두 작성하셨습니까?</td>
+					<td>
+						<input type="submit" value="전송하기" />
+						<input type="reset" value="다시작성" />
+						<input type="button" value="일반버튼" />
+						<button type="submit">전송하기</button>
+						<button type="reset">다시작성</button>
+						<button type="button">일반버튼</button>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
