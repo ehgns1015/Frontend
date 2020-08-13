@@ -1,8 +1,9 @@
 {
 	"color_scheme": "Packages/Color Scheme - Editor/editplus.tmTheme",
-	"font_size": 14,
+	"font_size": 18,
 	"ignored_packages":
 	[
 		"Vintage"
-	]
+	],
+	"save_on_focus_lost": true
 }

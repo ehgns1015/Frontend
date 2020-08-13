@@ -1,10 +1,11 @@
 {
 	"folder_history":
 	[
+		"/C/Dev/git/Frontend/Dohun Yeo/html/exam",
 		"/C/Dev/git/Frontend/Dohun Yeo/html/exam/08042020/04",
 		"/C/Dev/git/Frontend/Dohun Yeo/html"
 	],
-	"last_window_id": 2,
+	"last_window_id": 3,
 	"settings":
 	{
 		"new_window_height": 779.0,
@@ -44,6 +45,9 @@
 			},
 			"file_history":
 			[
+				"/C/Dev/git/Frontend/Dohun Yeo/html/exam/08112020/05/exam_path/html/path.html",
+				"/C/Dev/git/Frontend/Dohun Yeo/html/exam/08112020/join_form/explain.html",
+				"/C/Dev/git/Frontend/Dohun Yeo/html/exam/08112020/join_form/join_form.html",
 				"/C/Dev/git/Frontend/Dohun Yeo/html/exam/08062020/04/web_form.html",
 				"/C/Dev/git/Frontend/Dohun Yeo/html/exam/08042020/04/web_form.html",
 				"/C/Dev/git/Frontend/Dohun Yeo/html/exam/08062020/04/01.html",
@@ -164,19 +168,36 @@
 			"buffers":
 			[
 				{
-					"file": "/C/Dev/git/Frontend/Dohun Yeo/html/exam/08112020/05/exam_pagein/page_in.html",
+					"file": "/C/Dev/git/Frontend/Dohun Yeo/html/exam/08132020/07/01.html",
 					"settings":
 					{
-						"buffer_size": 486,
+						"buffer_size": 450,
 						"line_ending": "Windows"
 					}
 				},
 				{
-					"file": "/C/Dev/git/Frontend/Dohun Yeo/html/exam/08112020/05/01.html",
+					"file": "/C/Dev/git/Frontend/Dohun Yeo/html/exam/08132020/07/03.html",
 					"settings":
 					{
-						"buffer_size": 494,
+						"buffer_size": 914,
 						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/C/Dev/git/Frontend/Dohun Yeo/html/exam/08132020/07/04.html",
+					"settings":
+					{
+						"buffer_size": 743,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/C/Dev/git/Frontend/Dohun Yeo/html/exam/08132020/07/02.html",
+					"settings":
+					{
+						"buffer_size": 681,
+						"line_ending": "Windows",
+						"name": "<!DOCTYPE html>"
 					}
 				}
 			],
@@ -208,6 +229,9 @@
 			},
 			"file_history":
 			[
+				"/C/Dev/git/Frontend/Dohun Yeo/Program/Sublime/Data/Packages/User/Preferences.sublime-settings",
+				"/C/Dev/git/Frontend/Dohun Yeo/html/exam/08112020/05/01.html",
+				"/C/Dev/git/Frontend/Dohun Yeo/html/exam/08112020/05/exam_pagein/page_in.html",
 				"/C/Dev/git/Frontend/Dohun Yeo/html/exam/08112020/05/exam_path/html/path.html",
 				"/C/Dev/git/Frontend/Dohun Yeo/html/exam/08112020/join_form/explain.html",
 				"/C/Dev/git/Frontend/Dohun Yeo/html/exam/08112020/join_form/join_form.html",
@@ -267,23 +291,23 @@
 			"groups":
 			[
 				{
-					"selected": 0,
+					"selected": 2,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/C/Dev/git/Frontend/Dohun Yeo/html/exam/08112020/05/exam_pagein/page_in.html",
+							"file": "/C/Dev/git/Frontend/Dohun Yeo/html/exam/08132020/07/01.html",
 							"settings":
 							{
-								"buffer_size": 486,
+								"buffer_size": 450,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										465,
-										465
+										404,
+										404
 									]
 								],
 								"settings":
@@ -298,22 +322,75 @@
 						},
 						{
 							"buffer": 1,
-							"file": "/C/Dev/git/Frontend/Dohun Yeo/html/exam/08112020/05/01.html",
+							"file": "/C/Dev/git/Frontend/Dohun Yeo/html/exam/08132020/07/03.html",
 							"settings":
 							{
-								"buffer_size": 494,
+								"buffer_size": 914,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										494,
-										494
+										851,
+										851
 									]
 								],
 								"settings":
 								{
+									"syntax": "Packages/HTML/HTML.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 348.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/C/Dev/git/Frontend/Dohun Yeo/html/exam/08132020/07/04.html",
+							"settings":
+							{
+								"buffer_size": 743,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										584,
+										584
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/HTML/HTML.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/C/Dev/git/Frontend/Dohun Yeo/html/exam/08132020/07/02.html",
+							"settings":
+							{
+								"buffer_size": 681,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										591,
+										591
+									]
+								],
+								"settings":
+								{
+									"auto_name": "<!DOCTYPE html>",
 									"syntax": "Packages/HTML/HTML.tmLanguage"
 								},
 								"translation.x": 0.0,
@@ -356,7 +433,7 @@
 				]
 			},
 			"menu_visible": true,
-			"position": "0,0,1,-32000,-32000,-1,-1,961,700,123,1779",
+			"position": "0,2,3,-32000,-32000,-1,-1,981,805,143,1884",
 			"replace":
 			{
 				"height": 0.0
