@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8" />
+		<title>Document</title>
+		<style>
+			/*
+				selector[property] {}
+				checking whether property exists
+			*/
+			img[height] {
+				/* 
+					border: thickness, kind, color;
+				*/
+				border: 3px dashed orange;
+			}
+			img[alt="icon 1"] {
+				border: 5px solid tomato;
+			}
+			input[type="button"], input[type="submit"], input[type="reset"], 
+			button[type="button"], button[type="submit"], button[type="reset"] {
+				/*
+					cursor: default | pointer | move;
+				*/
+				cursor: pointer;
+			}
+		</style>
+	</head>
+	<body>
+		<img src="images/icon1.png" alt="icon 1" width="400" />
+		<img src="images/icon2.png" alt="icon 2" width="300" height="300"/>
+
+		<br /><br />
+		<input type="button" value="전송" />
+	</body>
+</html>

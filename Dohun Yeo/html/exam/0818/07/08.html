@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8" />
+		<title>Document</title>
+		<style>
+			* {
+				font-weight: bold;
+				font-size: 40px;
+			}
+			/*
+				The diffrence between child and descender
+				#wrap p { color: red; }
+				#wrap > p { color: red; }
+			*/
+			#wrap > p {
+				color: red;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="wrap">
+			<h1>div(#wrap) - h1</h1>
+			<p>div(#wrap) - p</p>
+			<div class="section">
+				<div>div(#wrap) - div(.section) - div</div>
+				<p>div(#wrap) - div(.section) - p</p>
+			</div>
+		</div>
+	</body>
+</html>
