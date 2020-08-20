@@ -1,11 +1,168 @@
 {
 	"folder_history":
 	[
+		"/C/Users/user/Desktop/Dohun Yeo/Frontend/Dohun Yeo",
+		"/C/Dev/git/Frontend/Dohun Yeo/html/exam",
+		"/C/Dev/git/Frontend/Dohun Yeo/html/exam/08042020/04",
 		"/C/Dev/git/Frontend/Dohun Yeo/html"
 	],
-	"last_window_id": 1,
+	"last_window_id": 4,
 	"settings":
 	{
+		"new_window_height": 779.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 360.0,
+				"selected_items":
+				[
+					[
+						"pci",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 400.0
+			},
+			"console":
+			{
+				"height": 125.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/C/Dev/git/Frontend/Dohun Yeo/html/exam/08132020/07/02.html",
+				"/C/Dev/git/Frontend/Dohun Yeo/html/exam/08132020/07/04.html",
+				"/C/Dev/git/Frontend/Dohun Yeo/html/exam/08132020/07/03.html",
+				"/C/Dev/git/Frontend/Dohun Yeo/html/exam/08132020/07/01.html",
+				"/C/Dev/git/Frontend/Dohun Yeo/Program/Sublime/Data/Packages/User/Preferences.sublime-settings",
+				"/C/Dev/git/Frontend/Dohun Yeo/html/exam/08112020/05/01.html",
+				"/C/Dev/git/Frontend/Dohun Yeo/html/exam/08112020/05/exam_pagein/page_in.html",
+				"/C/Dev/git/Frontend/Dohun Yeo/html/exam/08112020/05/exam_path/html/path.html",
+				"/C/Dev/git/Frontend/Dohun Yeo/html/exam/08112020/join_form/explain.html",
+				"/C/Dev/git/Frontend/Dohun Yeo/html/exam/08112020/join_form/join_form.html",
+				"/C/Dev/git/Frontend/Dohun Yeo/html/exam/08062020/04/web_form.html",
+				"/C/Dev/git/Frontend/Dohun Yeo/html/exam/08042020/04/web_form.html",
+				"/C/Dev/git/Frontend/Dohun Yeo/html/exam/08062020/04/01.html",
+				"/C/Dev/git/Frontend/Dohun Yeo/html/08062020/04/web_form.html",
+				"/C/Dev/git/Frontend/Dohun Yeo/html/08042020/04/web_form.html",
+				"/C/Dev/git/Frontend/Dohun Yeo/html/08042020/03/exam_table.html",
+				"/C/Dev/git/Frontend/Dohun Yeo/html/08042020/03/01.html",
+				"/C/Dev/git/Frontend/Dohun Yeo/html/07312020/02/01.html",
+				"/C/Dev/git/Frontend/Dohun Yeo/html/index.html",
+				"/C/Users/VIP/Desktop/00/Sublime/Data/Packages/Default/Preferences.sublime-settings",
+				"/C/Users/VIP/Desktop/1.html",
+				"/C/Users/VIP/Desktop/sublime/Data/Packages/Default/Preferences.sublime-settings",
+				"/C/Users/VIP/Desktop/test2.html",
+				"/C/Users/VIP/Desktop/SublimeText/Data/Packages/Default/Preferences.sublime-settings",
+				"/C/Users/VIP/Desktop/SublimeText/Data/Packages/User/xhtml.sublime-snippet"
+			],
+			"find":
+			{
+				"height": 34.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"tab"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": false,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true
+		},
+		"new_window_width": 1063.0
 	},
 	"windows":
 	[
@@ -19,10 +176,10 @@
 			"buffers":
 			[
 				{
-					"file": "/C/Dev/git/Frontend/Dohun Yeo/html/08042020/04/web_form.html",
+					"file": "/C/Users/user/Desktop/Dohun Yeo/Frontend/Dohun Yeo/html/exam/0820/08/02.html",
 					"settings":
 					{
-						"buffer_size": 492,
+						"buffer_size": 3920,
 						"line_ending": "Windows"
 					}
 				}
@@ -55,6 +212,23 @@
 			},
 			"file_history":
 			[
+				"/C/Users/user/Desktop/Dohun Yeo/Frontend/Dohun Yeo/html/exam/0818/08/02.html",
+				"/C/Users/user/Desktop/Dohun Yeo/Frontend/Dohun Yeo/html/exam/0818/08/exam_padding.html",
+				"/C/Dev/git/Frontend/Dohun Yeo/html/exam/08132020/07/02.html",
+				"/C/Dev/git/Frontend/Dohun Yeo/html/exam/08132020/07/04.html",
+				"/C/Dev/git/Frontend/Dohun Yeo/html/exam/08132020/07/03.html",
+				"/C/Dev/git/Frontend/Dohun Yeo/html/exam/08132020/07/01.html",
+				"/C/Dev/git/Frontend/Dohun Yeo/Program/Sublime/Data/Packages/User/Preferences.sublime-settings",
+				"/C/Dev/git/Frontend/Dohun Yeo/html/exam/08112020/05/01.html",
+				"/C/Dev/git/Frontend/Dohun Yeo/html/exam/08112020/05/exam_pagein/page_in.html",
+				"/C/Dev/git/Frontend/Dohun Yeo/html/exam/08112020/05/exam_path/html/path.html",
+				"/C/Dev/git/Frontend/Dohun Yeo/html/exam/08112020/join_form/explain.html",
+				"/C/Dev/git/Frontend/Dohun Yeo/html/exam/08112020/join_form/join_form.html",
+				"/C/Dev/git/Frontend/Dohun Yeo/html/exam/08062020/04/web_form.html",
+				"/C/Dev/git/Frontend/Dohun Yeo/html/exam/08042020/04/web_form.html",
+				"/C/Dev/git/Frontend/Dohun Yeo/html/exam/08062020/04/01.html",
+				"/C/Dev/git/Frontend/Dohun Yeo/html/08062020/04/web_form.html",
+				"/C/Dev/git/Frontend/Dohun Yeo/html/08042020/04/web_form.html",
 				"/C/Dev/git/Frontend/Dohun Yeo/html/08042020/03/exam_table.html",
 				"/C/Dev/git/Frontend/Dohun Yeo/html/08042020/03/01.html",
 				"/C/Dev/git/Frontend/Dohun Yeo/html/07312020/02/01.html",
@@ -100,7 +274,7 @@
 			"folders":
 			[
 				{
-					"path": "/C/Dev/git/Frontend/Dohun Yeo/html"
+					"path": "/C/Users/user/Desktop/Dohun Yeo/Frontend/Dohun Yeo"
 				}
 			],
 			"groups":
@@ -111,26 +285,27 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/C/Dev/git/Frontend/Dohun Yeo/html/08042020/04/web_form.html",
+							"file": "/C/Users/user/Desktop/Dohun Yeo/Frontend/Dohun Yeo/html/exam/0820/08/02.html",
 							"settings":
 							{
-								"buffer_size": 492,
+								"buffer_size": 3920,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										463,
-										463
+										1005,
+										1005
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/HTML/HTML.tmLanguage"
+									"syntax": "Packages/HTML/HTML.tmLanguage",
+									"translate_tabs_to_spaces": false
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 719.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
@@ -169,7 +344,7 @@
 				]
 			},
 			"menu_visible": true,
-			"position": "0,0,1,-32000,-32000,-1,-1,961,700,123,1779",
+			"position": "0,0,1,-32000,-32000,-1,-1,890,52,52,1131",
 			"replace":
 			{
 				"height": 0.0
@@ -197,7 +372,7 @@
 			"side_bar_visible": true,
 			"side_bar_width": 150.0,
 			"status_bar_visible": true,
-			"window_id": 1,
+			"window_id": 4,
 			"workspace_name": ""
 		}
 	],
