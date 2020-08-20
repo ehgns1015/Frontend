@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8" />
+		<title>Document</title>
+		<style>
+			* {
+				font-size: 60px;
+			}
+			p {
+				width: 200px;
+				background-color: purple;
+				color: white;
+			}
+			p:first-letter {
+				font-size: 1.5em;
+			}
+			p:first-line {
+				text-decoration: underline;
+				/*
+					text-decoration
+					overline, line-through, underline, none
+				*/
+			}
+			/*
+				selector: before - before tag value;
+				selector: after - after tag value;
+			*/
+			.name:before {
+				content: 'www.';
+			}
+			.name:after {
+				content: '.com';
+			}
+		</style>
+	</head>
+	<body>
+		<p>안녕하세요! 만나서 반갑습니다.</p>
+		<div class="name">SH</div>
+		<section></section>
+		<article></article>
+	</body>
+</html>

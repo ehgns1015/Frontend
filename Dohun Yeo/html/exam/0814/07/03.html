@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko ">
+	<head>
+		<meta charset="utf-8" />
+		<title>Document</title>
+		<style>
+			/*
+				The proiority of selecter
+				id > imaginary class > class > tag > *
+
+				the way to name id or class
+				- Don't use keyword
+				- Don't use space, Korean char
+				- The first character should be started with small case.(no numbers)
+				- Special char _, - can be used.
+				- When we make synthetic lang, we use _ and - between two words without space or using camel case.
+			*/
+			.txt-pink {
+				color: pink;
+			}
+			#txt-green {
+				color: green;
+			}
+			#green-bold {
+				font-weight: bold;
+			}
+			.font-bold {
+				font-weight: bold;
+			}
+		</style>
+	</head>
+	<body>
+		<p class="txt-pink font-bold">첫 번째 문단 영역입니다.</p>
+		<p>두 번째 문단 영역입니다.</p>
+		<p class="txt-pink">세 번째 문단 영역입니다.</p>
+		<p>...................</p>
+		<p id="txt-green">열두 번째 문단 영역입니다.</p>
+		<p>열세 번쨰 문단 영역입니다.</p>
+	</body>
+</html>

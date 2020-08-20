@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8" />
+		<title>Document</title>
+		<style>
+			* {
+				font-size: 40px;
+				font-weight: bold;
+			}
+			/*
+				+: closest(or next to) selector;
+			*/
+			h1 + p {
+				color: hotpink;
+			}
+			input[type="radio"] + label{
+				cursor: pointer;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>HeadLine - 1</h1>
+		<p>paragraph - 1</p>
+		<p>paragraph - 2</p>
+		<form>
+			<input type="radio" id="g_male" name="gender" value="male" checked/>
+			<label for="g_male">Male</label>
+			<input type="radio" id="g_female" name="gender" value="female" />
+			<label for="g_female">Female</label>
+			<br />
+			<label for="another">Another label</label>
+		</form>
+	</body>
+</html>
