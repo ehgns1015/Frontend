@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8" />
+		<title>Document</title>
+		<style>
+			/*
+				how to change the axis of absolute position.
+				The position property is required to parent tag.
+			*/
+			.body {
+				margin: 0 auto;
+				position: relative;
+			}
+			.body {
+				width: 500px;
+				height: 825px;
+				background-image: url(images/bear-bg.png);
+			}
+			.eyeL {
+				background-image: url(images/bear-eye-left.png);
+				
+			}
+			.eyeR {
+				background-image: url(images/bear-eye-right.png);
+			}
+			.nose {
+				background-image: url(images/bear-nose.png);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="bear">
+			<div class="body"></div>
+			<div class="eyeL"></div>
+			<div class="eyeR"></div>
+			<div class="nose"></div>
+		</div>
+	</body>
+</html>

@@ -176,10 +176,18 @@
 			"buffers":
 			[
 				{
-					"file": "/C/Users/user/Desktop/Dohun Yeo/Frontend/Dohun Yeo/html/exam/0820/08/02.html",
+					"file": "/C/Users/user/Desktop/Dohun Yeo/Frontend/Dohun Yeo/html/exam/0825/04.html",
 					"settings":
 					{
-						"buffer_size": 3920,
+						"buffer_size": 773,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/C/Users/user/Desktop/Dohun Yeo/Frontend/Dohun Yeo/html/exam/0825/03.html",
+					"settings":
+					{
+						"buffer_size": 714,
 						"line_ending": "Windows"
 					}
 				}
@@ -212,6 +220,11 @@
 			},
 			"file_history":
 			[
+				"/C/Users/user/Desktop/Dohun Yeo/Frontend/Dohun Yeo/html/exam/0825/images/04.html",
+				"/C/Users/user/Desktop/Dohun Yeo/Frontend/Dohun Yeo/html/exam/0825/03.html",
+				"/C/Users/user/Desktop/Dohun Yeo/Frontend/Dohun Yeo/html/exam/0825/02.html",
+				"/C/Users/user/Desktop/Dohun Yeo/Frontend/Dohun Yeo/html/exam/0825/01.html",
+				"/C/Users/user/Desktop/Dohun Yeo/Frontend/Dohun Yeo/html/exam/0820/08/02.html",
 				"/C/Users/user/Desktop/Dohun Yeo/Frontend/Dohun Yeo/html/exam/0818/08/02.html",
 				"/C/Users/user/Desktop/Dohun Yeo/Frontend/Dohun Yeo/html/exam/0818/08/exam_padding.html",
 				"/C/Dev/git/Frontend/Dohun Yeo/html/exam/08132020/07/02.html",
@@ -285,18 +298,44 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/C/Users/user/Desktop/Dohun Yeo/Frontend/Dohun Yeo/html/exam/0820/08/02.html",
+							"file": "/C/Users/user/Desktop/Dohun Yeo/Frontend/Dohun Yeo/html/exam/0825/04.html",
 							"settings":
 							{
-								"buffer_size": 3920,
+								"buffer_size": 773,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										1005,
-										1005
+										614,
+										614
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/HTML/HTML.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 336.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/C/Users/user/Desktop/Dohun Yeo/Frontend/Dohun Yeo/html/exam/0825/03.html",
+							"settings":
+							{
+								"buffer_size": 714,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										153,
+										194
 									]
 								],
 								"settings":
@@ -305,7 +344,7 @@
 									"translate_tabs_to_spaces": false
 								},
 								"translation.x": 0.0,
-								"translation.y": 719.0,
+								"translation.y": 84.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
@@ -344,7 +383,7 @@
 				]
 			},
 			"menu_visible": true,
-			"position": "0,0,1,-32000,-32000,-1,-1,890,52,52,1131",
+			"position": "0,0,1,-32000,-32000,-1,-1,906,786,68,1892",
 			"replace":
 			{
 				"height": 0.0
