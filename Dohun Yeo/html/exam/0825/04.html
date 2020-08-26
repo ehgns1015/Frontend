@@ -1,40 +1,56 @@
 <!DOCTYPE html>
 <html lang="ko">
-	<head>
-		<meta charset="utf-8" />
-		<title>Document</title>
-		<style>
-			/*
-				how to change the axis of absolute position.
-				The position property is required to parent tag.
-			*/
-			.body {
-				margin: 0 auto;
-				position: relative;
-			}
-			.body {
-				width: 500px;
-				height: 825px;
-				background-image: url(images/bear-bg.png);
-			}
-			.eyeL {
-				background-image: url(images/bear-eye-left.png);
-				
-			}
-			.eyeR {
-				background-image: url(images/bear-eye-right.png);
-			}
-			.nose {
-				background-image: url(images/bear-nose.png);
-			}
-		</style>
-	</head>
-	<body>
-		<div class="bear">
-			<div class="body"></div>
-			<div class="eyeL"></div>
-			<div class="eyeR"></div>
-			<div class="nose"></div>
-		</div>
-	</body>
+
+<head>
+	<meta charset="utf-8" />
+	<title>Document</title>
+	<style>
+		/*
+			how to change the axis of absolute position.
+			The position property is required to parent tag.
+		*/
+		.bearBody {
+			width: 500px;
+			height: 825px;
+			background-image: url(images/bear-bg.png);
+			margin: 0 auto;
+			position: relative
+		}
+
+		.bearBody .eyeL,
+		.bearBody .eyeR,
+		.bearBody .nose {
+			width: 85px;
+			height: 72px;
+			background-image: url(images/bear-eye-left.png);
+			position: absolute;
+			top: 222px;
+			left: 132px
+		}
+
+		.bearBody .eyeR,
+		.bearBody .nose {
+			background-image: url(images/bear-eye-right.png);
+			left: 320px
+		}
+
+		.bearBody .nose {
+			width: 131px;
+			height: 78px;
+			background-image: url(images/bear-nose.png);
+			top: 306px;
+			left: 206px
+		}
+	</style>
+</head>
+
+<body>
+	<div class="bearBody">
+		<div class="eyeL"></div>
+		<div class="eyeR"></div>
+		<div class="nose"></div>
+
+	</div>
+</body>
+
 </html>
