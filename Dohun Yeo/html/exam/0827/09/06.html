@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8" />
+		<title>Document</title>
+		<style>
+			.wrap {
+				width: 500px;
+				height: 250px;
+				margin: 10px auto;
+				position: relative;
+				border: 1px dashed grey;
+			}
+			.wrap > p {
+				width: 100px;
+				height: 100px;
+				position: absolute;
+			}
+			.wrap .red {
+				background-color: red;
+				top: 50px;
+				left: 50px;
+				z-index: 4;
+			}
+			.wrap .green {
+				background-color: green;
+				top: 75px;
+				left: 75px;
+				z-index: 2;
+			}
+			.wrap .blue {
+				background-color: blue;
+				top: 100px;
+				left: 100px;
+				z-index: 3;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wrap">
+			<p class="red"></p>
+			<p class="green"></p>
+			<p class="blue"></p>
+		</div>
+	</body>
+</html>

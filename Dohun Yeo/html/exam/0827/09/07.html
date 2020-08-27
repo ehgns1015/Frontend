@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8" />
+		<title>Document</title>
+		<style>
+			/*
+				On the x-axis, if we want to display horizontally, use float property.
+				float: left | right;
+
+				The way to be out of float effect
+				clear: left | right | both;
+			*/
+			div {
+				width: 200px;
+				height: 200px;
+				margin: 5px;
+			}
+			.red {
+				background-color: red;
+			}
+			.orange {
+				background-color: orange;
+				clear: both;
+				float: left;
+			}
+			.yellow {
+				background-color: yellow;
+				float: left;
+			}
+			.green {
+				background-color: green;
+				clear: both;
+				float: left;
+			}
+			.blue {
+				background-color: blue;
+				float: left;
+			}
+		 	.purple {
+				background-color: purple;
+				float: left;
+			}
+		</style>
+	</head>
+	<body>
+		<h2>float &amp; clear 연습입니다.</h2>
+		<div class="red"></div>
+		<div class="orange"></div>
+		<div class="yellow"></div>
+		<div class="green"></div>
+		<div class="blue"></div>
+		<div class="purple"></div>
+	</body>
+</html>
