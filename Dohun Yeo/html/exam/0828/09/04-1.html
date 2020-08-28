@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8" />
+		<title>Document</title>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			.bear {
+				width: 500px;
+				height: 825px;
+				background-image: url('./images/bear-bg.png');
+				margin: 20px auto;
+				position: relative;
+			}
+			.bear > div {
+				position: absolute;
+			}
+			.bear .eye_left {
+				width: 85px;
+				height: 72px;
+				background-image: url('./images/bear-eye-left.png');
+				top: 222px;
+				left: 132px;
+
+			}
+			.bear .eye_right {
+				width: 85px;
+				height: 72px;
+				background-image: url('./images/bear-eye-right.png');
+				top: 222px;
+				left: 320px;
+
+			}
+			.bear .nose {
+				width: 131px;
+				height: 78px;
+				background-image: url('./images/bear-nose.png');
+				top: 306px;
+				left: 206px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="bear">
+			<div class="eye_left"></div>
+			<div class="eye_right"></div>
+			<div class="nose"></div>
+		</div>
+	</body>
+</html>

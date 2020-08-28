@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8" />
+		<title>Document</title>
+		<style>
+			.chart {
+				margin: 100px auto;
+				border-spacing: 0 ;
+				/*
+					The diffrence between border-spacing and border-collapse
+					border-spacing: 0;
+					The interval of cells in the table is 0
+					border-collapse: collapse;
+					The interval of cells in the table is integrated
+				*/
+			}
+			.chart tr td {
+				padding: 30px;
+				border-bottom: 1px solid deepskyblue;
+
+			}
+			.chart tr:first-child td {
+				border-top: 1px solid deepskyblue;	
+			}
+			.chart tr td .agree {
+				position: relative;
+				top: 1px;
+			}
+		</style>
+	</head>
+	<body>
+		<form method="post" action="#">
+			<table class="chart">
+				<tr>
+					<td>이름</td>
+					<td>
+						<input type="text" name="name" title="이름을 입력하세요." />
+					</td>
+				</tr>
+				<tr>
+					<td>수신여부</td>
+					<td>	
+						<input type="checkbox" id="agree" class="agree" name="email_check[]" checked/>
+						<label for="agree">동의함</label><br />
+						쇼핑몰에서 제공하는 유익한 이벤트 소식을 이메일로 받으실 수 있습니다.
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

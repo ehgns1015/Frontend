@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8" />
+		<title>Document</title>
+		<style>
+			.wrap {
+				width: 600px;
+				margin: 0 auto;
+				background-color: deepskyblue;
+			}
+			.wrap p {
+				border: 1px solid black;	
+			}
+			.wrap .positioning {
+				border: 1px solid red;
+				color: red;
+				font-weight: bold;
+				/*
+					position: relative;
+					top: -10px;
+					left: 20px;
+				*/
+				/*
+					position: absolute;
+					top: 20px;
+					left: 50px;
+				*/
+				position: fixed;
+				top: 30px;
+				left: 30px;
+			}
+			/*
+				position: static();
+				position: relative; - axis with the current location
+				position: absolute; - axis with the body or html
+				position: fixed; - axis with the browser screen
+			*/
+		</style>
+	</head>
+	<body>
+		<div class="wrap">
+			<p>첫 번째 문장입니다.</p>
+			<p>두 번째 문장입니다.</p>
+			<p class="positioning">포지셔닝 문장입니다.</p>
+			<p>네 번째 문장입니다.</p>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8" />
+		<title>Document</title>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			a:link, a:visited, a:hover, a:active {
+				text-decoration: none;
+				color: black;
+			}
+			ul {
+				list-style: none;
+			}
+			header {
+				border-bottom: 1px dashed #eee;
+				/*overflow: hidden;*/
+			}
+			header:after {
+				/*
+				clear property is used in block level
+				*/
+				content: '';
+				clear: both;
+				display: block;
+			}
+			.container {
+				width: 1130px;
+				margin: 0 auto;
+			}
+			header .container h1{
+				width: 174px;
+				height: 68px;
+				background-image: url('./images/kt_logo.gif');
+				text-indent: -10000px;
+				font-size: 1px;
+				float: left;
+			}
+			header .container .menu {
+				margin-top: 20px;
+				float: right;
+			}
+			header .container .menu ul li{
+				margin-right: 30px;
+				float: left;
+				font-size: 18px;
+				font-weight: bold;
+			}
+			header .container .menu ul li:last-child {
+				margin-right: 0;
+			}
+			/* header의 하단 라인이 보이도록 해주세요. */
+			article {
+				width: 1130px;
+				margin: 0 auto;
+				background-color: tomato;
+			}
+			article:after {
+				content: '';
+				clear: both;
+				display: block;
+			}
+			footer {
+				font-size: 12px;
+				background-image: url('./images/pattern.gif');
+				padding: 20px 0;
+			}
+			footer .container ul li {
+				margin: 5px 0;
+			}
+			footer .container ul li address{
+				font-style: normal;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<h1>검생엔진에 노출될 문장</h1>
+				<nav class="menu">
+					<ul>
+						<li><a href="#">Menu 1</a></li>
+						<li><a href="#">Menu 2</a></li>
+						<li><a href="#">Menu 3</a></li>
+						<li><a href="#">Menu 4</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<!--
+			article or section needs title tag such as h2.
+		-->
+		<article>
+			<h2>본문내용</h2>
+		</article>
+		<footer>
+			<div class="container">
+				<ul>
+					<li><address>뚝섬로 341 / <a href="tel:01035504217">01035504217</a></address></li>
+					<li>Copyright &copy;YDH Rights All Reserved.</li>
+				</ul>
+			</div>
+		</footer>
+	</body>
+</html>

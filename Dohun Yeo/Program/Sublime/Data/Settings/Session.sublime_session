@@ -176,26 +176,26 @@
 			"buffers":
 			[
 				{
-					"file": "/C/Users/user/Desktop/Dohun Yeo/Frontend/Dohun Yeo/html/exam/0827/05.html",
+					"file": "/C/Users/user/Desktop/Dohun Yeo/Frontend/Dohun Yeo/html/exam/0828/09/08.html",
 					"settings":
 					{
-						"buffer_size": 503,
+						"buffer_size": 2086,
 						"line_ending": "Windows"
 					}
 				},
 				{
-					"file": "/C/Users/user/Desktop/Dohun Yeo/Frontend/Dohun Yeo/html/exam/0827/07.html",
+					"file": "/C/Users/user/Desktop/Dohun Yeo/Frontend/Dohun Yeo/html/exam/0828/09/09.html",
 					"settings":
 					{
-						"buffer_size": 999,
+						"buffer_size": 981,
 						"line_ending": "Windows"
 					}
 				},
 				{
-					"file": "/C/Users/user/Desktop/Dohun Yeo/Frontend/Dohun Yeo/html/exam/0827/09/08.html",
+					"file": "/C/Users/user/Desktop/Dohun Yeo/Frontend/Dohun Yeo/html/exam/0828/10/01.html",
 					"settings":
 					{
-						"buffer_size": 1011,
+						"buffer_size": 153,
 						"line_ending": "Windows"
 					}
 				}
@@ -228,6 +228,9 @@
 			},
 			"file_history":
 			[
+				"/C/Users/user/Desktop/Dohun Yeo/Frontend/Dohun Yeo/html/exam/0827/09/08.html",
+				"/C/Users/user/Desktop/Dohun Yeo/Frontend/Dohun Yeo/html/exam/0827/07.html",
+				"/C/Users/user/Desktop/Dohun Yeo/Frontend/Dohun Yeo/html/exam/0827/05.html",
 				"/C/Users/user/Desktop/Dohun Yeo/Frontend/Dohun Yeo/html/exam/0827/06.html",
 				"/C/Users/user/Desktop/Dohun Yeo/Frontend/Dohun Yeo/html/exam/0827/04-1.html",
 				"/C/Users/user/Desktop/Dohun Yeo/Frontend/Dohun Yeo/html/exam/0827/05.HTML",
@@ -281,6 +284,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"fter",
 					"guide",
 					"ad",
 					"bg",
@@ -313,44 +317,45 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/C/Users/user/Desktop/Dohun Yeo/Frontend/Dohun Yeo/html/exam/0827/05.html",
+							"file": "/C/Users/user/Desktop/Dohun Yeo/Frontend/Dohun Yeo/html/exam/0828/09/08.html",
 							"settings":
 							{
-								"buffer_size": 503,
+								"buffer_size": 2086,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										204,
-										161
+										797,
+										797
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/HTML/HTML.tmLanguage"
+									"syntax": "Packages/HTML/HTML.tmLanguage",
+									"translate_tabs_to_spaces": false
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 2828.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
 						},
 						{
 							"buffer": 1,
-							"file": "/C/Users/user/Desktop/Dohun Yeo/Frontend/Dohun Yeo/html/exam/0827/07.html",
+							"file": "/C/Users/user/Desktop/Dohun Yeo/Frontend/Dohun Yeo/html/exam/0828/09/09.html",
 							"settings":
 							{
-								"buffer_size": 999,
+								"buffer_size": 981,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										660,
-										660
+										15,
+										15
 									]
 								],
 								"settings":
@@ -358,30 +363,29 @@
 									"syntax": "Packages/HTML/HTML.tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 299.0,
+								"translation.y": 504.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
 						},
 						{
 							"buffer": 2,
-							"file": "/C/Users/user/Desktop/Dohun Yeo/Frontend/Dohun Yeo/html/exam/0827/09/08.html",
+							"file": "/C/Users/user/Desktop/Dohun Yeo/Frontend/Dohun Yeo/html/exam/0828/10/01.html",
 							"settings":
 							{
-								"buffer_size": 1011,
+								"buffer_size": 153,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										141,
-										141
+										107,
+										107
 									]
 								],
 								"settings":
 								{
-									"auto_name": "",
 									"syntax": "Packages/HTML/HTML.tmLanguage"
 								},
 								"translation.x": 0.0,
@@ -424,7 +428,7 @@
 				]
 			},
 			"menu_visible": true,
-			"position": "0,0,1,-32000,-32000,-1,-1,906,786,68,1892",
+			"position": "0,0,1,-32000,-32000,-1,-1,939,737,101,1843",
 			"replace":
 			{
 				"height": 0.0

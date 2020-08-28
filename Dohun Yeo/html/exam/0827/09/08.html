@@ -10,6 +10,15 @@
 			}
 			header {
 				border-bottom: 1px solid #eee;
+				/*overflow: hidden;*/
+			}
+			/*
+				clear property is used in block level
+			*/
+			header:after {
+				content: '';
+				clear: both;
+				display: block;
 			}
 			header .header-container {
 				width: 1130px;
@@ -48,6 +57,5 @@
 				</nav>
 			</div>
 		</header>
-		
 	</body>
 </html>
