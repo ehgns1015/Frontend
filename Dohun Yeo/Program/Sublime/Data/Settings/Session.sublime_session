@@ -198,6 +198,14 @@
 						"buffer_size": 153,
 						"line_ending": "Windows"
 					}
+				},
+				{
+					"file": "/C/Users/user/Desktop/Dohun Yeo/Frontend/Dohun Yeo/html/exam/0827/09/08.html",
+					"settings":
+					{
+						"buffer_size": 1161,
+						"line_ending": "Windows"
+					}
 				}
 			],
 			"build_system": "",
@@ -312,7 +320,7 @@
 			"groups":
 			[
 				{
-					"selected": 2,
+					"selected": 3,
 					"sheets":
 					[
 						{
@@ -360,7 +368,8 @@
 								],
 								"settings":
 								{
-									"syntax": "Packages/HTML/HTML.tmLanguage"
+									"syntax": "Packages/HTML/HTML.tmLanguage",
+									"translate_tabs_to_spaces": false
 								},
 								"translation.x": 0.0,
 								"translation.y": 504.0,
@@ -390,6 +399,33 @@
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/C/Users/user/Desktop/Dohun Yeo/Frontend/Dohun Yeo/html/exam/0827/09/08.html",
+							"settings":
+							{
+								"buffer_size": 1161,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										198,
+										198
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/HTML/HTML.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 252.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
@@ -428,7 +464,7 @@
 				]
 			},
 			"menu_visible": true,
-			"position": "0,0,1,-32000,-32000,-1,-1,939,737,101,1843",
+			"position": "0,0,1,-1,-1,-1,-1,964,666,126,1772",
 			"replace":
 			{
 				"height": 0.0
